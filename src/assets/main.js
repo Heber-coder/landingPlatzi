@@ -37,7 +37,7 @@ try {
 				</h3>
 			</div>
 		</div>
-	`).slice(0,8).join('')}
+	`).slice(0,4).join('')}
 	`;
 	content.innerHTML = view;
 } catch (error) {
