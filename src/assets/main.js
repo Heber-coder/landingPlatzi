@@ -41,7 +41,7 @@ try {
 	`;
 	content.innerHTML = view;
 } catch (error) {
-	console.log(error);
+	content.innerHTML = 'El servidor no esta disponible '+ error;
 }
 })();
 
