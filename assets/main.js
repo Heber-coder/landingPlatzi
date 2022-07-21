@@ -41,7 +41,7 @@ try {
 	`;
 	content.innerHTML = view;
 } catch (error) {
-	console.log(error);
+	content.innerHTML = 'El servidor no esta disponible '+ error;
 }
 })();
 
@@ -61,4 +61,10 @@ Se crea una nueva rama en el repositorio y se habilita para su publicación. Par
 Para confirmar y comentar que hay nuevos archivos y cambios se coloca: git commit -m “[ADD] files”
 Por último se hace el deploy con el comando: npm run deploy que ejecuta un comando de gh-pages para la subida de una rama y que luego se pueda mostrar como una página web.
 -Para obtener la dirección que arroja en Github con gh-pages, hay que entrar en la pestaña de Settings, en el panel izquierdo entrar a Pages, automáticamente nos muestra la url para ver nuestra landing y compartirla a otros.
+*/
+
+/*
+-git status
+git commit -m "[ADD] files"
+-commit
 */
